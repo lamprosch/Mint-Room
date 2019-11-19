@@ -1,7 +1,7 @@
-MINT ROOM - BINAURAL MIXER APP
-Version 1.0
-Documentation file
-Author/Developer: Lampros Chantzis
+MINT ROOM - BINAURAL MIXER APP<br/>
+Version 1.0<br/>
+Documentation file<br/>
+Author/Developer: Lampros Chantzis<br/>
 Date: 06/09/2019 
 
 1. GENERAL
@@ -69,5 +69,5 @@ For any further help try clicking the '?' button.
 Estimation". It's developement was supervised by Professor of Electrical & Computer Engineering, John Mourjopoulos and
 Audiogroup of Patras University. Any suggestions or questions on this software are welcome.
 
-Enjoy Mint Room
+Enjoy Mint Room<br/>
 Thank you
