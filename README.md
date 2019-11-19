@@ -59,7 +59,7 @@ For any further help try clicking the '?' button.
 ---------------------------------------------------------------------------------------------------------------------------------------
 5. LISCENCE AND CREDITS<br/>
 "Mint Room" is a software developed for my thesis under the subject "Audio Signals Analysis for Listener's Envelopement 
-Estimation". It's developement was supervised by Professor of Electrical & Computer Engineering, John Mourjopoulos and
+Estimation". Its developement was supervised by Professor of Electrical & Computer Engineering, John Mourjopoulos and
 Audiogroup of Patras University. Any suggestions or questions on this software are welcome.
 
 Enjoy Mint Room<br/>
