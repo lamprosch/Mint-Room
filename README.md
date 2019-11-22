@@ -13,17 +13,19 @@ with headphones.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 2. CONTENTS<br/>
-In this repository there are: 
-App Resources: A folder for all resources that app needs to run (icons, angle audio files, etc).
-Screens: A folder that contains screenshots of the application's layout for a preview.
-Test Audio Files: A folder containing wav files that have been used to test application's functionality.
-Source Code: There is the .mlapp file that contains source code. It can be only be oppened with Matlab (2016 or later).
+In this repository there are: <br/>
+Resources: A folder for all resources that app needs to run (icons, angle audio files, etc). <br/>
+Screens: A folder that contains screenshots of the application's layout for a preview. <br/>
+Test Audio Files: A folder containing wav files that have been used to test application's functionality. <br/>
+Source Code: There is the .mlapp file that contains source code. It can be only be oppened with Matlab (2016 or later).<br/>
+Packaged App: The folder that contains the installation file.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 3. INSTALL<br/>
-In order to install successfully Mint Room you must download the SADIE II Database (https://www.york.ac.uk/sadie-project/database.html)
-(Subject D1, HRIR(wav)) and adjust the appropriate file paths inside the mlapp file. It is also necessary to add all folders to Matlab
-path before you run the mlapp file.   
+In order to run Mint Room you must have Matlab (2016 or later). After you install the app in the Matlab apps you can run it through 
+Matlab Apps at the top of your Matlab interface screen. All required files and folders are contained in the installation file. Finally
+when you load your audio to the app use the files in the "Test Audio Files" folder that will be installed with the app in order to 
+prevent problems with Matlab path.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 4. HOW TO USE<br/>
