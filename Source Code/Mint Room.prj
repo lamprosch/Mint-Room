@@ -1,0 +1,105 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3816470081" file="C:\Users\lampr\Desktop\Mint Room\Mint-Room\Source Code\Mint Room.prj" location="C:\Users\lampr\Desktop\Mint Room\Mint-Room\Source Code" name="Mint Room" target="target.mlapps" target-name="Package App">
+    <param.appname>Mint Room</param.appname>
+    <param.authnamewatermark>Lampros Chantzis</param.authnamewatermark>
+    <param.email>lampros.ch13@gmail.com</param.email>
+    <param.company>Audiogroup of Patras University</param.company>
+    <param.icon>${PROJECT_ROOT}\Mint Room_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Mint Room_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Mint Room_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Mint Room_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>A binaural upmixing algorithm.</param.summary>
+    <param.description>Mint Room is an app developed for my diploma thesis. It upmixes a stereo audio file to a potential 6 channels mix. It works better with headphones. User is able to control gain level, angle and delay for every virtual speaker that user creates. Mint Room was developed under supervision of proffessor John Mourjopoulos and Audio Group of Patras University.</param.description>
+    <param.screenshot>C:\Users\lampr\AppData\Local\Temp\tp3bd0dee6_1286_4a36_bcd0_b069d511baf4.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.6</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>C:\Users\lampr\Desktop\Mint Room\Mint-Room\Packaged App</param.output>
+    <param.guid>1f9645a7-240c-4152-a687-607d710deff7</param.guid>
+    <unset>
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\greenroom.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\load_file.png</file>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\mute.png</file>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\play.png</file>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\save_file.png</file>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\save_settings.png</file>
+      <file>C:\Users\lampr\AppData\Roaming\MathWorks\MATLAB Add-Ons\Apps\MintRoom - 1\resources\Icons\stop.png</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>C:\Users\lampr\Desktop\Cherry Room\Resources\mint.png</file>
+      <file>C:\Users\lampr\Desktop\Mint Room\Mint-Room\Resources\HRTF Database</file>
+      <file>C:\Users\lampr\Desktop\Mint Room\Mint-Room\Resources\Icons\mint.png</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\lampr\Desktop\Mint Room\Mint-Room" name="Packaged App" optional="false">C:\Users\lampr\Desktop\Mint Room\Mint-Room\Packaged App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
